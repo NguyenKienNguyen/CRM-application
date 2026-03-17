@@ -12,6 +12,32 @@
           "bin/placeholder/Admin.Common.dll": {}
         }
       },
+      "Admin.CustomerDelete/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Admin.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Admin.CustomerDelete.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Admin.CustomerDelete.dll": {}
+        }
+      },
+      "Admin.CustomerEdit/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Admin.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Admin.CustomerEdit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Admin.CustomerEdit.dll": {}
+        }
+      },
       "Admin.CustomerRead/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -56,6 +82,16 @@
       "path": "../Admin.Common/Admin.Common.csproj",
       "msbuildProject": "../Admin.Common/Admin.Common.csproj"
     },
+    "Admin.CustomerDelete/1.0.0": {
+      "type": "project",
+      "path": "../Admin.CustomerDelete/Admin.CustomerDelete.csproj",
+      "msbuildProject": "../Admin.CustomerDelete/Admin.CustomerDelete.csproj"
+    },
+    "Admin.CustomerEdit/1.0.0": {
+      "type": "project",
+      "path": "../Admin.CustomerEdit/Admin.CustomerEdit.csproj",
+      "msbuildProject": "../Admin.CustomerEdit/Admin.CustomerEdit.csproj"
+    },
     "Admin.CustomerRead/1.0.0": {
       "type": "project",
       "path": "../Admin.CustomerRead/Admin.CustomerRead.csproj",
@@ -74,6 +110,8 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Admin.CustomerDelete >= 1.0.0",
+      "Admin.CustomerEdit >= 1.0.0",
       "Admin.CustomerRead >= 1.0.0",
       "Admin.CustomerUpdate >= 1.0.0",
       "Admin.Extensibility >= 1.0.0"
@@ -85,33 +123,41 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\src\\Admin\\Admin.App\\Admin.App.csproj",
+      "projectUniqueName": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.App\\Admin.App.csproj",
       "projectName": "Admin.App",
-      "projectPath": "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\src\\Admin\\Admin.App\\Admin.App.csproj",
+      "projectPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.App\\Admin.App.csproj",
       "packagesPath": "C:\\Users\\kkira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\src\\Admin\\Admin.App\\obj\\",
+      "outputPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kkira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\kkira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\src\\Admin\\Admin.CustomerRead\\Admin.CustomerRead.csproj": {
-              "projectPath": "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\src\\Admin\\Admin.CustomerRead\\Admin.CustomerRead.csproj"
+            "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.CustomerDelete\\Admin.CustomerDelete.csproj": {
+              "projectPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.CustomerDelete\\Admin.CustomerDelete.csproj"
             },
-            "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\src\\Admin\\Admin.CustomerUpdate\\Admin.CustomerUpdate.csproj": {
-              "projectPath": "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\src\\Admin\\Admin.CustomerUpdate\\Admin.CustomerUpdate.csproj"
+            "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.CustomerEdit\\Admin.CustomerEdit.csproj": {
+              "projectPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.CustomerEdit\\Admin.CustomerEdit.csproj"
             },
-            "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\src\\Admin\\Admin.Extensibility\\Admin.Extensibility.csproj": {
-              "projectPath": "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\src\\Admin\\Admin.Extensibility\\Admin.Extensibility.csproj"
+            "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.CustomerRead\\Admin.CustomerRead.csproj": {
+              "projectPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.CustomerRead\\Admin.CustomerRead.csproj"
+            },
+            "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.CustomerUpdate\\Admin.CustomerUpdate.csproj": {
+              "projectPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.CustomerUpdate\\Admin.CustomerUpdate.csproj"
+            },
+            "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.Extensibility\\Admin.Extensibility.csproj": {
+              "projectPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\src\\Admin\\Admin.Extensibility\\Admin.Extensibility.csproj"
             }
           }
         }
@@ -126,7 +172,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -147,7 +193,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

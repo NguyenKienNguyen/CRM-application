@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended.csproj": {}
+    "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended.csproj": {
+    "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended.csproj",
+        "projectUniqueName": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended.csproj",
         "projectName": "SendEmailToCustomerExtended",
-        "projectPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended.csproj",
+        "projectPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended.csproj",
         "packagesPath": "C:\\Users\\kkira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\obj\\",
+        "outputPath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kkira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.15.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

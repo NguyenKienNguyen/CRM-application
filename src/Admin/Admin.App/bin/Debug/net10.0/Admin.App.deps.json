@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v10.0": {
       "Admin.App/1.0.0": {
         "dependencies": {
+          "Admin.CustomerDelete": "1.0.0",
+          "Admin.CustomerEdit": "1.0.0",
           "Admin.CustomerRead": "1.0.0",
           "Admin.CustomerUpdate": "1.0.0",
           "Admin.Extensibility": "1.0.0"
@@ -19,6 +21,28 @@
       "Admin.Common/1.0.0": {
         "runtime": {
           "Admin.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Admin.CustomerDelete/1.0.0": {
+        "dependencies": {
+          "Admin.Common": "1.0.0"
+        },
+        "runtime": {
+          "Admin.CustomerDelete.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Admin.CustomerEdit/1.0.0": {
+        "dependencies": {
+          "Admin.Common": "1.0.0"
+        },
+        "runtime": {
+          "Admin.CustomerEdit.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -63,6 +87,16 @@
       "sha512": ""
     },
     "Admin.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Admin.CustomerDelete/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Admin.CustomerEdit/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

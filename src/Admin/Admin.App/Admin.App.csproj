@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Admin.CustomerEdit\Admin.CustomerEdit.csproj" />
+    <ProjectReference Include="..\Admin.CustomerDelete\Admin.CustomerDelete.csproj" />
     <ProjectReference Include="..\Admin.CustomerRead\Admin.CustomerRead.csproj" />
     <ProjectReference Include="..\Admin.CustomerUpdate\Admin.CustomerUpdate.csproj" />
     <ProjectReference Include="..\Admin.Extensibility\Admin.Extensibility.csproj" />

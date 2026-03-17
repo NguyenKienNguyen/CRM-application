@@ -13,3 +13,19 @@ C:\Users\kkira\Downloads\SAAD - Self learning\Assignment 8 preparation\3. Sample
 C:\Users\kkira\Downloads\SAAD - Self learning\Assignment 8 preparation\3. Sample Projects\software-architecture-by-example-master\chapter-5-admin\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\refint\Admin.CustomerUpdate.dll
 C:\Users\kkira\Downloads\SAAD - Self learning\Assignment 8 preparation\3. Sample Projects\software-architecture-by-example-master\chapter-5-admin\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\Admin.CustomerUpdate.pdb
 C:\Users\kkira\Downloads\SAAD - Self learning\Assignment 8 preparation\3. Sample Projects\software-architecture-by-example-master\chapter-5-admin\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\ref\Admin.CustomerUpdate.dll
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\bin\Debug\net10.0\Admin.CustomerUpdate.deps.json
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\bin\Debug\net10.0\Admin.CustomerUpdate.dll
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\bin\Debug\net10.0\Admin.CustomerUpdate.pdb
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\bin\Debug\net10.0\Admin.Common.dll
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\bin\Debug\net10.0\Admin.Common.pdb
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\Admin.CustomerUpdate.csproj.AssemblyReference.cache
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\Admin.CustomerUpdate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\Admin.CustomerUpdate.AssemblyInfoInputs.cache
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\Admin.CustomerUpdate.AssemblyInfo.cs
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\Admin.CustomerUpdate.csproj.CoreCompileInputs.cache
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\Admin.CustomerUpdate.sourcelink.json
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\Admin.Cu.85F28627.Up2Date
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\Admin.CustomerUpdate.dll
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\refint\Admin.CustomerUpdate.dll
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\Admin.CustomerUpdate.pdb
+C:\Users\kkira\Downloads\Assignment 8\Assignment 8\CRM application\src\Admin\Admin.CustomerUpdate\obj\Debug\net10.0\ref\Admin.CustomerUpdate.dll

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VSb13Vg982Y=",
+  "dgSpecHash": "mebopbLp4zo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\kkira\\Downloads\\Assignment 8\\Assignment 8\\CRM application\\extended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended\\SendEmailToCustomerExtended.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kkira\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\mailkit\\4.15.1\\mailkit.4.15.1.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\mimekit\\4.15.1\\mimekit.4.15.1.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\system.security.cryptography.pkcs\\10.0.0\\system.security.cryptography.pkcs.10.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

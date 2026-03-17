@@ -1,9 +1,10 @@
 ﻿using Admin.Common;
 using Admin.CustomerRead;
 using Admin.CustomerUpdate;
+using Admin.CustomerEdit;
+using Admin.CustomerDelete;
 using Admin.Extensibility;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
@@ -24,9 +25,14 @@ namespace Admin.App
                 Console.WriteLine("1 - Read Customer Data");
                 Console.WriteLine("2 - Write Customer Data");
                 Console.WriteLine("3 - Add Customer");
+                Console.WriteLine("4 - Edit Customer");
+                Console.WriteLine("5 - Delete Customer");
+                
                 Console.WriteLine("0 - Exit");
 
                 var choice = Console.ReadKey();
+                Console.WriteLine();
+
                 switch (choice.Key)
                 {
                     case ConsoleKey.D0:
@@ -54,10 +60,18 @@ namespace Admin.App
                             Email = $"customer{_rnd.Next(10000)}@domain.com"
                         });
                         CommitCustomerData();
-
                         break;
 
+                    case ConsoleKey.D4:
+                        EditCustomer();
+                        break;
+
+                    case ConsoleKey.D5:
+                        DeleteCustomer();
+                        break;
                 }
+
+                Console.WriteLine();
             }
         }
 
@@ -66,8 +80,8 @@ namespace Admin.App
             var read = new ReadService();
             var file = Path.Combine(
                 Directory.GetCurrentDirectory(),
-                "..", "..", "..",
-                "testData", "test.txt");
+                "..", "..",
+                "testData", "text.json");
             _customers = read.ReadAll(file).ToList();
         }
 
@@ -76,17 +90,46 @@ namespace Admin.App
             var write = new WriteService();
             var file = Path.Combine(
                 Directory.GetCurrentDirectory(),
-                "..", "..", "..",
-                "testData", "test.txt");
+                "..", "..",
+                "testData", "text.json");
             write.Write(_customers, file);
 
-            // Provide hook
             string jsonParams = JsonSerializer.Serialize(_customers);
 
-            _hook.CreateHook(
-                methodName: "After",
-                className: "CommitCustomerData",
-                parameters: new[] { jsonParams });
+            // _hook.CreateHook(
+            //     methodName: "After",
+            //     className: "CommitCustomerData",
+            //     parameters: new[] { jsonParams });
+        }
+
+        private static void EditCustomer()
+        {
+            ReadCustomerData();
+            var editService = new EditService();
+            var updated = editService.EditCustomerInteractive(_customers);
+            if (!updated)
+            {
+                return;
+            }
+
+            CommitCustomerData();
+
+            Console.WriteLine("Cập nhật customer thành công.");
+        }
+
+        private static void DeleteCustomer()
+        {
+            ReadCustomerData();
+            var deleteService = new DeleteService();
+            var deleted = deleteService.DeleteCustomerInteractive(_customers);
+            if (!deleted)
+            {
+                return;
+            }
+
+            CommitCustomerData();
+
+            Console.WriteLine("Xóa customer thành công.");
         }
     }
 }

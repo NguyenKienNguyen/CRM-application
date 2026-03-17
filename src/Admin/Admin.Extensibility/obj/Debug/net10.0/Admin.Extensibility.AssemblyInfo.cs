@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Admin.Extensibility")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19748d66c00aa718257bb8caaf9b516ea055e3db")]
 [assembly: System.Reflection.AssemblyProductAttribute("Admin.Extensibility")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Admin.Extensibility")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

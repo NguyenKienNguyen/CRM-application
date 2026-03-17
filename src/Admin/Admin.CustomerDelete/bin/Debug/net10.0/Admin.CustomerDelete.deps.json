@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Admin.CustomerDelete/1.0.0": {
+        "dependencies": {
+          "Admin.Common": "1.0.0"
+        },
+        "runtime": {
+          "Admin.CustomerDelete.dll": {}
+        }
+      },
+      "Admin.Common/1.0.0": {
+        "runtime": {
+          "Admin.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Admin.CustomerDelete/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Admin.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
