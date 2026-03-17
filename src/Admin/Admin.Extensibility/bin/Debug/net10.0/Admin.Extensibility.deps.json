@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Admin.Extensibility/1.0.0": {
+        "runtime": {
+          "Admin.Extensibility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Admin.Extensibility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

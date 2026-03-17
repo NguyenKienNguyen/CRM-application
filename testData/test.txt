@@ -1,0 +1,20 @@
+[
+    {
+        "Name":"Fred Bains",
+        "Address":"1 Hilltop View, Swansea",
+        "Email":"fred@bains125.com",
+        "CreditLimit":100
+    },
+    {
+        "Name":"Wilma Green",
+        "Address":"84 Elm Close, Luton",
+        "Email":"wilma.ann.green@thegreens.com",
+        "CreditLimit":400
+    },
+    {
+        "Name":"Customer 73e888cb-7ccf-44aa-a673-3cf6ef028c8b",
+        "Address":"Customer Address",
+        "Email":"customer9495@domain.com",
+        "CreditLimit":670
+    }
+]

@@ -1,0 +1,86 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Admin.App/1.0.0": {
+        "dependencies": {
+          "Admin.CustomerRead": "1.0.0",
+          "Admin.CustomerUpdate": "1.0.0",
+          "Admin.Extensibility": "1.0.0"
+        },
+        "runtime": {
+          "Admin.App.dll": {}
+        }
+      },
+      "Admin.Common/1.0.0": {
+        "runtime": {
+          "Admin.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Admin.CustomerRead/1.0.0": {
+        "dependencies": {
+          "Admin.Common": "1.0.0"
+        },
+        "runtime": {
+          "Admin.CustomerRead.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Admin.CustomerUpdate/1.0.0": {
+        "dependencies": {
+          "Admin.Common": "1.0.0"
+        },
+        "runtime": {
+          "Admin.CustomerUpdate.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Admin.Extensibility/1.0.0": {
+        "runtime": {
+          "Admin.Extensibility.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Admin.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Admin.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Admin.CustomerRead/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Admin.CustomerUpdate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Admin.Extensibility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

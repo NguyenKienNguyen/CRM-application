@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "dgSpecHash": "7L3kGZAVNbw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\tests\\CommitCustomerData.Extended.UnitTests\\CommitCustomerData.Extended.UnitTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kkira\\.nuget\\packages\\microsoft.net.test.sdk\\15.0.0\\microsoft.net.test.sdk.15.0.0.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\microsoft.testplatform.objectmodel\\15.0.0\\microsoft.testplatform.objectmodel.15.0.0.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\microsoft.testplatform.testhost\\15.0.0\\microsoft.testplatform.testhost.15.0.0.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\kkira\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.1\\xunit.runner.visualstudio.2.4.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 9.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\tests\\CommitCustomerData.Extended.UnitTests\\CommitCustomerData.Extended.UnitTests.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\kkira\\Downloads\\SAAD - Self learning\\Assignment 8 preparation\\3. Sample Projects\\software-architecture-by-example-master\\chapter-5-admin\\tests\\CommitCustomerData.Extended.UnitTests\\CommitCustomerData.Extended.UnitTests.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
