@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CRM.WebApi/CRM.WebApi.csproj" />
+  </Folder>
+</Solution>
